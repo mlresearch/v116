@@ -1,0 +1,77 @@
+---
+booktitle: Proceedings of the Machine Learning for Health NeurIPS Workshop
+shortname: ML4H
+volume: 116
+year: '2020'
+start: 2019-12-13
+end: 2019-12-13
+url: http://proceedings.mlr.press
+location: Vancouver, British Columbia, Canada
+published: 2020-04-30
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: ML4H-2019
+month: 0
+cycles: false
+bibtex_editor: Dalca, Adrian V. and Mcdermott, Matthew and Alsentzer, Emily and Finlayson,
+  Sam and Oberst, Michael and Falck, Fabian and Beaulieu-Jones, Brett
+editor:
+- given: Adrian V.
+  family: Dalca
+- given: Matthew
+  family: Mcdermott
+- given: Emily
+  family: Alsentzer
+- given: Sam
+  family: Finlayson
+- given: Michael
+  family: Oberst
+- given: Fabian
+  family: Falck
+- given: Brett
+  family: Beaulieu-Jones
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the Machine Learning for Health NeurIPS Workshop on 13 December 2019
+
+  Published as Volume 116 by the Proceedings of Machine Learning Research on 30 April 2020.
+
+  Volume Edited by:
+    Adrian V. Dalca
+    Matthew Mcdermott
+    Emily Alsentzer
+    Sam Finlayson
+    Michael Oberst
+    Fabian Falck
+    Brett Beaulieu-Jones
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
+date_str: 13 Dec
+baseurl: "/v116"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v116
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+email: ''
+conference:
+  name: Machine Learning for Health Workshop
+  url: 
+  location: ''
+  dates:
+  - 2019-12-13
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from /Users/mreid/mlresearch/v116/ml4h20.bib

@@ -1,0 +1,139 @@
+@Proceedings{ML4H-2019,
+    booktitle = {Proceedings of the Machine Learning for Health NeurIPS Workshop},
+    name = {Machine Learning for Health Workshop},
+    shortname = {ML4H},
+    editor = {Adrian V. Dalca and Matthew Mcdermott and Emily Alsentzer and Sam Finlayson and Michael Oberst and Fabian Falck and Brett Beaulieu-Jones},
+    volume = {1},
+    year = {2020},
+    start = {2019-12-13},
+    end = {2019-12-13},
+    url = {https://ml4health.github.io/2019},
+    location = {Vancouver, British Columbia, Canada},
+	published = {2020-04-30}
+}
+
+@InProceedings{dalca20,
+author = {Dalca, Adrian V and Mcdermott, Matthew and Alsentzer, Emily and Finlayson, Sam and Oberst, Michael and Falck, Fabian and Chivers, Corey and Beam, Andrew and Naumann, Tristan and Beaulieu-jones, Brett},
+pages = {1-9},
+title = {{Machine Learning for Health ( ML4H ) 2019 : What Makes Machine Learning in Medicine Different ?}}
+}
+
+@InProceedings{wei20,
+abstract = {We present an image translation approach to generate augmented data for mitigating data imbalances in a dataset of histopathology images of colorectal polyps, adenomatous tumors that can lead to colorectal cancer if left untreated. By applying cycle-consistent generative adversarial networks (CycleGANs) to a source domain of normal colonic mucosa images, we generate synthetic colorectal polyp images that belong to diagnostically less common polyp classes. Generated images maintain the general structure of their source image but exhibit adenomatous features that can be enhanced with our proposed filtration module, called Path-Rank-Filter. We evaluate the quality of generated images through Turing tests with four gastrointestinal pathologists, finding that at least two of the four pathologists could not identify generated images at a statistically significant level. Finally, we demonstrate that using CycleGAN-generated images to augment training data improves the AUC of a convolutional neural network for detecting sessile serrated adenomas by over 10{\%}, suggesting that our approach might warrant further research for other histopathology image classification tasks.},
+author = {Wei, Jerry and Suriawinata, Arief and Vaickus, Louis and Ren, Bing and Liu, Xiaoying and Wei, Jason and Hassanpour, Saeed},
+pages = {10-24},
+title = {{Generative Image Translation for Data Augmentation in Colorectal Histopathology Images}}
+}
+
+@InProceedings{kapur20,
+abstract = {We present the first non-invasive real-time silent speech system that helps patients with speech disorders to communicate in natural language voicelessly, merely by articulating words or sentences in the mouth without producing any sounds. We collected neuromus-cular recordings to build a dataset of 10 trials of 15 sentences from each of 3 multiple sclerosis (MS) patients with dysphonia, spanning a range of severity and subsequently affected speech attributes. We present a pipeline wherein we carefully preprocess the data, develop a convolutional neural architecture and employ personalized machine learning. In our experiments with multiple sclerosis patients, our system achieves a mean overall test accuracy of 0.81 at a mean information transfer rate of 203.73 bits per minute averaged over all patients. Our work demonstrates the potential of a reliable and promising human-computer interface that classifies intended sentences from silent speech and hence, paves the path for future work with further speech disorders in conditions such as amyotrophic lateral sclerosis (ALS), stroke, and oral cancer, among others.},
+author = {Kapur, Arnav and Sarawgi, Utkarsh and Wadkins, Eric and Wu, Matthew and Hollenstein, Nora and Maes, Pattie},
+pages = {25-38},
+title = {{Non-Invasive Silent Speech Recognition in Multiple Sclerosis with Dysphonia}}
+}
+
+@InProceedings{asif20,
+abstract = {Falling can have fatal consequences for the elderly people especially if the fallen person is unable to call for help due to loss of consciousness or any other associated injury. Automatic fall detection systems can assist in overcoming this issue through prompt fall alarms which then allow the triggering of a third party response, and to minimize the fear of falling when living independently at home. Vision-based fall detection systems detect human regions in the scene and use information from these regions to train classifiers for fall recognition. However, the performance of these systems lack generalization to unseen environments due to factors such as errors in the human detection stage and the unavailability of large-scale fall datasets to learn robust features for fall recognition. In this paper, we present a deep learning based framework towards automatic fall detection from RGB images captured by a single camera. Our framework learns human skeleton and segmentation based fall representations purely from synthetic data generated in a virtual environment. This de-identifies personal information contained in the original images and preserves privacy which is highly desirable in health informatics. Experiments on challenging real-world fall datasets show that our framework performs successful transfer of fall recognition knowledge from synthetic to real-world data and achieves high sensitivity and specificity scores showcasing its generalization capability for highly accurate fall detection in unseen real-world environments.},
+author = {Asif, Umar and Mashford, Benjamin and {Von Cavallar}, Stefan and Yohanandan, Shivanthan and Roy, Subhrajit and Tang, Jianbin and Harrer, Stefan},
+pages = {39-51},
+title = {{Privacy Preserving Human Fall Detection using Video Data}}
+}
+
+@InProceedings{rozenberg20,
+abstract = {Localization of an object within an image is a common task in medical imaging. Learning to localize or detect objects typically requires the collection of data which has been labelled with bounding boxes or similar annotations, which can be very time consuming and expensive. A technique which could perform such learning with much less annotation would, therefore, be quite valuable. We present such a technique for localization with limited annotation, in which the number of images with bounding boxes can be a small fraction of the total dataset (e.g. less than 1{\%}); all other images only possess a whole image label and no bounding box. We propose a novel loss function for tackling this problem; the loss is a continuous relaxation of a well-defined discrete formulation of weakly supervised learning and is numerically well-posed. Furthermore, we propose a new architecture which accounts for both patch dependence and shift-invariance, through the inclusion of CRF layers and anti-aliasing filters, respectively. We apply our technique to the localization of thoracic diseases in chest X-ray images and demonstrate state-of-the-art localization performance on the ChestX-ray14 dataset.},
+author = {Rozenberg, Eyal and Freedman, Daniel and Bronstein, Alex},
+pages = {52-65},
+title = {{Localization with Limited Annotation for Chest X-rays}}
+}
+
+@InProceedings{gilet20,
+abstract = {Learning a classifier in safety-critical applications like medicine raises several issues. Firstly, the class proportions, also called priors, are in general imbalanced or uncertain. Secondly, the classifier must consider some bounds on the priors taking the form of box constraints provided by experts. Thirdly, it is also necessary to consider any arbitrary loss function given by experts to evaluate the classification decision. Finally, the dataset may contain both categorical and numerical features. To deal with both categorical and numerical features, the numerical attributes are discretized. When considering only discrete features, we propose in this paper a box-constrained minimax classifier which addresses all the mentioned issues. We derive a projected subgradient algorithm to compute this classifier. The convergence of this algorithm is established. We finally perform experiments on the Framingham heart database for illustrating the relevance of our algorithm in health care field.},
+author = {Gilet, Cyprien and Barbosa, Susana and Fillatre, Lionel},
+pages = {66-80},
+title = {{Minimax Classifier with Box Constraint on the Priors}}
+}
+
+@InProceedings{sidorov20,
+abstract = {In minimally invasive surgery, the use of tissue dissection tools causes smoke, which inevitably degrades the image quality. This could reduce the visibility of the operation field for surgeons and introduces errors for the computer vision algorithms used in surgical navigation systems. In this paper, we propose a novel approach for computational smoke removal using supervised image-to-image translation. We demonstrate that straightforward application of existing generative algorithms allows removing smoke but decreases image quality and introduces synthetic noise (grid-structure). Thus, we propose to solve this issue by modification of GAN's architecture and adding perceptual image quality metric to the loss function. Obtained results demonstrate that proposed method efficiently removes smoke as well as preserves perceptually sufficient image quality.},
+author = {Sidorov, Oleksii and Wang, Congcong and Cheikh, Faouzi Alaya},
+pages = {81-92},
+title = {{Generative Smoke Removal}}
+}
+
+@InProceedings{kumar20,
+abstract = {Healthcare resource allocation is an application that has been largely neglected by the machine learning community. We utilize the Electronic Health Records (EHR) of 1.4 million Finnish citizens, aged 65 and above, to develop a sequential deep learning model to predict utilization of healthcare services in the following year on individual level. Historical longitudinal EHR records from previous years, consisting of diagnosis codes, procedures, and patient demographics, are used sequentially as an input to a Recurrent Neural Networks (RNN). We improve the standard RNN regression pipeline for EHR code sequences by adding a Convolutional Embedding layer to address multiple codes recorded simultaneously, and Multi-headed attention. This reduces the number of epochs to converge by approximately 38{\%} while improving the accuracy. We achieve approximately 10{\%} improvement in R 2 score compared with state-of-the-art count-based baselines. Finally, we demonstrate the model's robustness to changes in healthcare practices over time, by showing that it retains it's ability to predict well into future years without any data available at the time of prediction, which is needed in practice to aid the allocation of healthcare resources.},
+author = {Kumar, Yogesh and Salo, Henri and Nieminen, Tuomo and Vepsalainen, Kristian and Kulathinal, Sangita and Marttinen, Pekka},
+pages = {93-111},
+title = {{Predicting utilization of healthcare services from individual disease trajectories using RNNs with multi-headed attention}}
+}
+
+@InProceedings{vansteenkiste20,
+abstract = {Sleep apnea is a common respiratory disorder characterized by breathing pauses during the night. Consequences of untreated sleep apnea can be severe. Still, many people remain undiagnosed due to shortages of hospital beds and trained sleep technicians. To assist in the diagnosis process, automated detection methods are being developed. Recent works have demonstrated that deep learning models can extract useful information from raw respiratory data and that such models can be used as a robust sleep apnea detector. However, trained sleep technicians take into account multiple sensor signals when annotating sleep recordings instead of relying on a single respiratory estimate. To improve the predictive performance and reliability of the models, early and late sensor fusion methods are explored in this work. In addition, a novel late sensor fusion method is proposed which uses backward shortcut connections to improve the learning of the first stages of the models. The performance of these fusion methods is analyzed using CNN as well as LSTM deep learning base-models. The results demonstrate a significant and consistent improvement in predictive performance over the single sensor methods and over the other explored sensor fusion methods, by using the proposed sensor fusion method with backward shortcut connections.},
+author = {{Van Steenkiste}, Tom and Deschrijver, Dirk and Dhaene, Tom},
+pages = {112-125},
+title = {{Sensor Fusion using Backward Shortcut Connections for Sleep Apnea Detection in Multi-Modal Data}}
+}
+
+@InProceedings{boag20,
+abstract = {With advances in deep learning and image captioning over the past few years, researchers have recently begun applying computer vision methods to radiology report generation. Typically, these generated reports have been evaluated using general domain natural language generation (NLG) metrics like CIDEr and BLEU. However, there is little work assessing how appropriate these metrics are for healthcare, where correctness is critically important. In this work, we profile a number of models for automatic report generation on this dataset, including: random report retrieval, nearest neighbor report retrieval, n-gram language models, and neural network approaches. These models serve to calibrate our understanding for what the opaque general domain NLG metrics mean. In particular, we find that the standard NLG metrics (e.g. BLEU, CIDEr) actually assign higher scores to random (but grammatical) clinical sentences over n-gram-derived sentences, despite the n-gram sentences achieving higher clinical accuracy. This casts doubt on the usefulness of these domain-agnostic metrics, though unsurprisingly we find that the best performance-on both CIDEr/BLEU and clinical correctness-was achieved by more sophisticated models.},
+author = {Boag, William and Hsu, Tzu-Ming Harry and Mcdermott, Matthew and Berner, Gabriela and Alesentzer, Emily and Szolovits, Peter},
+pages = {126-140},
+title = {{Baselines for Chest X-Ray Report Generation}}
+}
+
+@InProceedings{xu20,
+abstract = {Previous work on automated pain detection from facial expressions has primarily focused on frame-level pain metrics based on specific facial muscle activations, such as Prkachin and Solomon Pain Intensity (PSPI). However, the current gold standard pain metric is the patient's self-reported visual analog scale (VAS) level which is a video-level measure. In this work, we propose a multitask multidimensional-pain model to directly predict VAS from video. Our model consists of three stages: (1) a VGGFace neural network model trained to predict frame-level PSPI, where multitask learning is applied, i.e. individual facial action units are predicted together with PSPI, to improve the learning of PSPI; (2) a fully connected neural network to estimate sequence-level pain scores from frame-level PSPI predictions, where again we use multitask learning to learn multidimensional pain scales instead of VAS alone; and (3) an optimal linear combination of the multidimensional pain predictions to obtain a final estimation of VAS. We show on the UNBC-McMaster Shoulder Pain dataset that our multitask multidimensional-pain method achieves state-of-the-art performance with a mean absolute error (MAE) of 1.95 and an intraclass correlation coefficient (ICC) of 0.43. While still not as good as trained human observer predictions provided with the dataset, when we average our estimates with those human estimates, our model improves their MAE from 1.76 to 1.58. Trained on the UNBC-McMaster dataset and applied directly with no further training or fine-tuning on a separate dataset of facial videos recorded during post-appendectomy physical exams, our model also outperforms previous work by 6{\%} on the Area under the ROC curve metric (AUC).},
+author = {Xu, Xiaojing and Huang, Jeannie S and {De Sa}, Virginia R},
+pages = {141-154},
+title = {{Pain Evaluation in Video using Extended Multitask Learning from Multidimensional Measurements}}
+}
+
+@InProceedings{ghorbani20,
+abstract = {Despite the recent success in applying supervised deep learning to medical imaging tasks, the problem of obtaining large and diverse expert-annotated datasets required for the development of high performant models remains particularly challenging. In this work, we explore the possibility of using Generative Adverserial Networks (GAN) to synthesize clinical images with skin condition. We propose DermGAN, an adaptation of the popular Pix2Pix architecture, to create synthetic images for a pre-specified skin condition while being able to vary its size, location and the underlying skin color. We demonstrate that the generated images are of high fidelity using objective GAN evaluation metrics. In a Human Turing test, we note that the synthetic images are not only visually similar to real images, but also embody the respective skin condition in dermatologists' eyes. Finally, when using the synthetic images as a data augmentation technique for training a skin condition classifier, we observe that the model performs comparably to the baseline model overall while improving on rare but malignant conditions.},
+archivePrefix = {arXiv},
+author = {Ghorbani, Amirata and Natarajan, Vivek and Coz, David and Liu, Yuan},
+pages = {155-170},
+title = {{DermGAN: Synthetic Generation of Clinical Skin Images with Pathology}}
+}
+
+@InProceedings{jaeger20,
+abstract = {The task of localizing and categorizing objects in medical images often remains formulated as a semantic segmentation problem. This approach, however, only indirectly solves the coarse localization task by predicting pixel-level scores, requiring ad-hoc heuristics when mapping back to object-level scores. State-of-the-art object detectors on the other hand, allow for individual object scoring in an end-to-end fashion, while ironically trading in the ability to exploit the full pixel-wise supervision signal. This can be particularly disadvantageous in the setting of medical image analysis, where data sets are notoriously small. In this paper, we propose Retina U-Net, a simple architecture, which naturally fuses the Retina Net one-stage detector with the U-Net architecture widely used for semantic segmentation in medical images. The proposed architecture recaptures discarded supervision signals by complementing object detection with an auxiliary task in the form of semantic segmentation without introducing the additional complexity of previously proposed two-stage detectors. We evaluate the importance of full segmentation supervision on two medical data sets, provide an in-depth analysis on a series of toy experiments and show how the corresponding performance gain grows in the limit of small data sets. Retina U-Net yields strong detection performance only reached by its more complex two-staged counterparts. Our framework including all methods implemented for operation on 2D and 3D images is available at github.com/pfjaeger/medicaldetectiontoolkit.},
+author = {Jaeger, Paul F. and Kohl, Simon A. A. and Bickelhaupt, Sebastian and Isensee, Fabian and Kuder, Tristan Anselm and Schlemmer, Heinz-Peter and Maier-Hein, Klaus H.},
+pages = {171-183},
+title = {{Retina U-Net: Embarrassingly Simple Exploitation of Segmentation Supervision for Medical Object Detection}}
+}
+
+@InProceedings{liu20,
+abstract = {Early detection is a crucial goal in the study of Alzheimer's Disease (AD). In this work, we describe several techniques to boost the performance of 3D convolutional neural networks trained to detect AD using structural brain MRI scans. Specifically, we provide evidence that (1) instance normalization outperforms batch normalization, (2) early spatial downsampling negatively affects performance, (3) widening the model brings consistent gains while increasing the depth does not, and (4) incorporating age information yields moderate improvement. Together, these insights yield an increment of approximately 14{\%} in test accuracy over existing models when distinguishing between patients with AD, mild cognitive impairment, and controls in the ADNI dataset. Similar performance is achieved on an independent dataset.},
+author = {Liu, Sheng and Yadav, Chhavi and Fernandez-Granda, Carlos and Razavian, Narges},
+pages = {184-201},
+title = {{On the design of convolutional neural networks for automatic detection of Alzheimer's disease}}
+}
+
+@InProceedings{balagopalan20,
+abstract = {Multi-language speech datasets are scarce and often have small sample sizes in the medical domain. Robust transfer of linguistic features across languages could improve rates of early diagnosis and therapy for speakers of low-resource languages when detecting health conditions from speech. We utilize out-of-domain, unpaired, single-speaker, healthy speech data for training multiple Optimal Transport (OT) domain adaptation systems. We learn mappings from other languages to English and detect aphasia from linguistic characteristics of speech, and show that OT domain adaptation improves aphasia detection over unilingual baselines for French (6{\%} increased F1) and Mandarin (5{\%} increased F1). Further, we show that adding aphasic data to the domain adaptation system significantly increases performance for both French and Mandarin, increasing the F1 scores further (10{\%} and 8{\%} increase in F1 scores for French and Mandarin, respectively, over unilingual baselines).},
+author = {Balagopalan, Aparna and Novikova, Jekaterina and Mcdermott, Matthew B A and Nestor, Bret and Naumann, Tristan and Ghassemi, Marzyeh},
+pages = {202-219},
+title = {{Cross-Language Aphasia Detection using Optimal Transport Domain Adaptation}}
+}
+
+@InProceedings{rajan20,
+abstract = {Pulmonary embolisms (PE) are known to be one of the leading causes for cardiac-related mortality. Due to inherent variabilities in how PE manifests and the cumbersome nature of manual diagnosis, there is growing interest in leveraging AI tools for detecting PE. In this paper, we build a two-stage detection pipeline that is accurate, computationally efficient, robust to variations in PE types and kernels used for CT reconstruction, and most importantly, does not require dense annotations. Given the challenges in acquiring expert annotations in large-scale datasets, our approach produces state-of-the-art results with very sparse emboli contours (at 10mm slice spacing), while using models with significantly lower number of parameters. We achieve AUC scores of 0.94 on the validation set and 0.85 on the test set of highly severe PEs. Using a large, real-world dataset characterized by complex PE types and patients from multiple hospitals, we present an elaborate empirical study and provide guidelines for designing highly generalizable pipelines.},
+author = {Rajan, Deepta and Beymer, David and Abedin, Shafiqul and Dehghan, Ehsan},
+pages = {220-232},
+title = {{Pi-PE: A Pipeline for Pulmonary Embolism Detection using Sparsely Annotated 3D CT Images}}
+}
+
+@InProceedings{skreta20,
+abstract = {Abbreviation disambiguation is important for automated clinical note processing due to the frequent use of abbreviations in clinical settings. Current models for automated abbreviation disambiguation are restricted by the scarcity and imbalance of labeled training data, decreasing their generalizability to orthogonal sources. In this work we propose a novel data augmentation technique that utilizes information from related medical concepts, which improves our model's ability to generalize. Furthermore, we show that incorporating the global context information within the whole medical note (in addition to the traditional local context window), can significantly improve the model's representation for abbreviations. We train our model on a public dataset (MIMIC III) and test its performance on datasets from different sources (CASI, i2b2). Together, these two techniques boost the accuracy of abbreviation disambiguation by almost 14{\%} on the CASI dataset and 4{\%} on i2b2.},
+author = {Skreta, Marta and Arbabi, Aryan and Wang, Jixuan and Brudno, Michael},
+pages = {233-245},
+title = {{Training without training data: Improving the generalizability of automated medical abbreviation disambiguation}}
+}
+
+@InProceedings{pattisapu20,
+abstract = {Medical concept normalization aims to map a variable length message such as, 'unable to sleep' to an entry in a target medical lexicon, such as 'Insomnia'. Current approaches formulate medical concept normalization as a supervised text classification problem. This formulation has several drawbacks. First, creating training data requires manually mapping medical concept mentions to their corresponding entries in a target lexicon. Second, these models fail to map a mention to the target concepts which were not encountered during the training phase. Lastly, these models have to be retrained from scratch whenever new concepts are added to the target lexicon. In this work we propose a method which overcomes these limitations. We first use various text and graph embedding methods to encode medical concepts into an embedding space. We then train a model which transforms concept mentions into vectors in this target embedding space. Finally, we use cosine similarity to find the nearest medical concept to a given input medical concept mention. Our model scales to millions of target concepts and trivially accommodates growing target lexicon size without incurring significant computational cost. Experimental results show that our model outperforms the previous state-of-the-art by 4.2{\%} and 6.3{\%} classification accuracy across two benchmark datasets. We also present a variety of studies to evaluate the robustness of our model under different training conditions.},
+author = {Pattisapu, Nikhil and Patil, Sangameshwar and Palshikar, Girish and Vasudeva Varma},
+pages = {246-259},
+title = {{Medical Concept Normalization by Encoding Target Knowledge}}
+}
