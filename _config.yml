@@ -18,11 +18,11 @@ bibtex_editor: Dalca, Adrian V. and Mcdermott, Matthew and Alsentzer, Emily and 
 editor:
 - given: Adrian V.
   family: Dalca
-- given: Matthew
-  family: Mcdermott
+- given: Matthew B.A.
+  family: McDermott
 - given: Emily
   family: Alsentzer
-- given: Sam
+- given: Samuel G.
   family: Finlayson
 - given: Michael
   family: Oberst
@@ -38,9 +38,9 @@ description: |
 
   Volume Edited by:
     Adrian V. Dalca
-    Matthew Mcdermott
+    Matthew B.A. McDermott
     Emily Alsentzer
-    Sam Finlayson
+    Samuel G. Finlayson
     Michael Oberst
     Fabian Falck
     Brett Beaulieu-Jones
