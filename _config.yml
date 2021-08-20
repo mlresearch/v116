@@ -6,7 +6,7 @@ volume: 116
 year: '2020'
 start: 2019-12-13
 end: 2019-12-13
-url: http://proceedings.mlr.press
+url: https://proceedings.mlr.press
 author:
   name: PMLR
 location: Vancouver, British Columbia, Canada
